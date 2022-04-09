@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("Yekan.woff?") format("woff");
+}
+
+body {
+  font-family: "Yekan";
+}
+
+.signup,
+.signin {
+	border-radius: 19px;
+		width:110px;
+}
+
+.buttons {
+	margin-right: 190px;
+}
+
+
+.navbar {
+	margin-right: 130px;
+}
+
+.navbar-brand{
+	font-size:25px;
+}
+
+.nav-item {
+	font-size: 17px;
+	padding:0 8px;
+}
+
+.title-0{
+	font-size:25px;
+}
+.first{
+padding-top:110px;
+padding-bottom:130px;
+height: 490px;
+ z-index:2;
+}
+
+.first a{
+	border-radius:19px;
+	 font-size:14px;
+}
+
+.second{
+	z-index:2;
+}
+
+.searchbox{
+	width:70%;
+	 height:100px;
+	  z-index: 12;
+}
+
+.boxess{
+	margin:0 -40px;
+}
+
+.box-img {
+	width: 220px;
+	height: 220px;
+}
+
+.img-text {
+	width: 100%;
+	height: 300px display:block;
+}
+
+.price{
+	font-size:19px;
+}
+.carousel-indicators {
+	left: 0;
+	top: auto;
+	bottom: -70px;
+}
+
+.carousel-indicators li {
+	width: 15px;
+	height: 10px;
+}
+
+.carousel-indicators .active {
+	background-color: #777;
+}
+
+.section1 {
+	margin: 0 180px;
+}
+
+.section1 img {
+	width: 360px;
+}
+
+.boxes {
+	margin: 0 140px;
+}
+
+.section2 {
+	margin: 40px 250px 150px;
+}
+
+.section2 img {
+	width: 470px;
+	height: 170px;
+}
+.section3{
+	margin: 60px 140px 170px 140px;
+}
+.section3 img{
+	width:580px;
+}
+
+.footer-img {
+	width: 23vw;
+	margin-top: -25px;
+margin-left: 430px;
+}
+
+.socialmedia {
+	margin-right: 150px;
+}
+
+.footer1 {
+	margin-top: 50px;
+	margin-right: 45px;
+}
+
+.brands {
+	max-width: 100%;
+}
+
+.arrow {
+	z-index: 5;
+	margin-top: -139px;
+}
+
+.footerr{
+  margin-right:150px;
+}
+
+.samandehi{
+  width: 120px;
+}
+.etemad{
+  width: 155px;
+}
+.footer1{
+    margin-right:150px;
+}
+.footer2{
+    padding-right:150px;
+}
+#instagram img, #telegram img{
+  width:18px;
+  height:18px;
+}
+@media only screen and (max-width: 770px) {
+	.navbar {
+		margin-right: 50px;
+	}
+	.buttons {
+		margin-right: 50px;
+	}
+	.section1 img {
+		width: 200px;
+	}
+	.section1 {
+		margin: 0 55px;
+	}
+  .boxess{
+    margin:0 -30px;
+  }
+	.box {
+		margin-top: 15px;
+	}
+	.section2 {
+		margin: 40px 50px 100px 150px;
+	}
+	.section2 img {
+		width: 600px;
+	}
+	.footer-img {
+		width: 23vw;
+		margin-top: 0px;
+		margin-right: 0px;
+	}
+	.socialmedia {
+		margin-right: 50px;
+	}
+
+	.brands {
+		max-width: 100%;
+	}
+	.arrow {
+		z-index: 5;
+		margin-top: -125px;
+	}
+  .section3 a img{
+    width:440px;
+  }
+  .footer1, .footer2{
+    margin-right: 50px;
+  }
+  .footer1 h6{
+    margin-bottom: 20px;
+  }
+  .footerr{
+    margin-right: 50px;
+  }
+  .samandehi{
+   width:69px;
+  }
+  .etemad{
+ width:80px;
+
+
+  }
+}
+
+@media only screen and (max-width: 435px) {
+	.footer-img {
+		width: 300px;
+		margin-top: 10px;
+		margin-right: 0;
+    margin-left: 0;
+	}
+	.boxes {
+		margin: 0 45px;
+	}
+	.section2 a {
+		margin-right: -25px;
+	}
+	.section2 img {
+		width: 300px;
+	}
+	.footer1 h6 {
+		font-size: 13px;
+	}
+	.socialmedia {
+		margin-top: 30px;
+	}
+	.footer2 h6 {
+		font-size: 10px;
+	}
+	.brands {
+		max-width: 100%;
+	}
+  .section3 a img{
+    width:360px;
+  }
+  .section3{
+    margin:10px 0;
+  }
+  .footer2{
+    margin-right: -110px;
+}
+.arrow{
+  margin-top: -170px;
+}
+.boxess{
+  margin:0 30px;
+}
+.single-box{
+  margin:5px 0;
+}
+.searchbox{
+  padding-bottom: 150px;
+}
+.section1 {
+    margin: 0 80px;
+}
+.section1 img{
+  margin:5px 0;
+}
+.first h1{
+  font-size:26px;
+}
+.first h5{
+  font-size:17px;
+}
+}
+
+@media only screen and (max-width: 380px) {
+
+  .boxess{
+    margin:0 40px;
+  }
+	.section2 {
+		margin: 20px 0 0;
+	}
+	.section1 {
+		margin: 0 35px;
+	}
+	.section1 img {
+		margin-top: 5px;
+	}
+
+	.footer1 {
+		margin-right: 0;
+	}
+	.footer1 h6 {
+		font-size: 11px;
+	}
+	.footer2 h6 {
+		font-size: 10px;
+	}
+	.footer2 img {
+		width: 200px;
+	}
+	.section2 {
+		margin: 20px 35px 0 0;
+	}
+  .section3 a img{
+    width:260px;
+  }
+  .arrow{
+    margin-top: -179
+    px;
+  }
+}

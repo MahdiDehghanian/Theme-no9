@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+   <head>
+      <meta charset="utf-8">
+      <title>BLOG</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="blog.css">
+   </head>
+   <body>
+      <div style="width:100%;">
+         <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand text-body mb-0 h1" href="#">Logo</a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <ul class="navbar-nav ">
+                  <li class="nav-item">
+                     <a class="nav-link active " href="index.html">صفحه اصلی</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link  dropdown-toggle text-body" data-toggle="dropdown" href="#">دسته بندی</a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle text-primary"  data-toggle="dropdown" href="#">وبلاگ</a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-body" href="#">تماس با ما</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-body" href="#">درباره ما</a>
+                  </li>
+               </ul>
+               <div class="buttons">
+                  <div class="row buttonss" style="">
+                     <div class="col">
+                        <button type="button" class="btn btn-outline-secondary text-body signup" style="width:110px; border-radius:50px;">
+                        ثبت نام
+                        <img src="images/customer.png" style="width:24px; height:24px;">
+                        </button>
+                     </div>
+                     <div class="col">
+                        <button type="button" class="btn btn-outline-primary btn-primary text-white signin" style="width:110px; border-radius:50px;">
+                        ورود
+                        <img src="images/login.png" style="width:24px; height:24px;">
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div class="container-fluid bg-primary rounded mx-auto shadow-sm py-3 mt-2">
+         <div class="input-group pt-4  search">
+            <div class="form-outline mx-2">
+               <input type="search" class="form-control .form-control1 bg-primary" placeholder="به دنبال چه هستید" style="padding-left:15vw;">
+            </div>
+            <div class="form-outline mx-2 ">
+               <input type="search" class="form-control .form-control1 bg-primary " placeholder="جستجوی محصول مورد نظر" style="padding-left:15vw;">
+            </div>
+            <button type="button text-white" class="btn btn-primary">
+            جستجو
+            </button>
+         </div>
+      </div>
+      <div class="container-fluid pb-5"  style="background-color:#f5f5f5;" >
+         <div class="main mx-5">
+            <div class="row">
+               <div class="col mt-5">
+                  <h5 class="text-right textt"  style="">مک بوک یازده اینچ</h5>
+                  <div class="row textt"  style="">
+                     <img src="images/folder-open.svg" alt="" style="width:20px; height:20px;">
+                     <h6 style="font-size:15px;"> دسته بندی <b>کالای دیجیتال</b></h6>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+                           <ol class="carousel-indicators mt-2">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                           </ol>
+                           <div class="carousel-inner mt-5">
+                              <div class="carousel-item">
+                                 <div class="container bg-white py-5 carouselcontainer">
+                                    <img class="mx-auto d-block" src="images/blog/pic-b-1.jpg" style="">
+                                 </div>
+                              </div>
+                              <div class="carousel-item active">
+                                 <div class="container bg-white py-5 carouselcontainer">
+                                    <img class="mx-auto d-block" src="images/blog/pic-b-2.jpg" style="max-width:100%;">
+                                 </div>
+                              </div>
+                              <div class="carousel-item">
+                                 <div class="container bg-white py-5 carouselcontainer">
+                                    <img class="mx-auto d-block" src="images/blog/pic-b-3.jpg" style="max-width:100%;">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section1" id="open-close">
+                        <div class="row collapsee">
+                           <p style=text-align:center>
+                              <button class="btn btn-light border-dark p-3" type="button" data-toggle="collapse"
+                                      data-target="#avvali" aria-expanded="true" aria-controls="avvali">نظرات
+                                 کاربران</button>
+
+                              <button class="btn btn-light border-dark p-3" type="button" data-toggle="collapse"
+                                      data-target="#dovvomi" aria-expanded="false" aria-controls="avvali">مشخصات</button>
+
+                              <button class="btn btn-light border-dark p-3" type="button" data-toggle="collapse"
+                                      data-target="#sevvomi" aria-expanded="false" aria-controls="avvali">نقد و
+                                 بررسی</button>
+
+                           </p>
+                           <div class="row">
+                              <div class="col">
+                                 <div class="collapse" id="avvali"  data-parent="#open-close">
+                                    <div class="card card-body">
+                                       <h5 class=" text-right mb-5">نقد و بررسی محصول</h5>
+                                       <p class="text-muted text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                                       </p>
+                                       <p class="text-muted text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col">
+                                 <div class="collapse" id="dovvomi"  data-parent="#open-close">
+                                    <div class="card card-body">
+                                       <h5 class="text-right mb-5">مشخصات محصول</h5>
+                                       <table class="table-bordered">
+                                          <tr class="text-right">
+                                             <td>قیمت</td>
+                                             <td>$450</td>
+                                          </tr>
+                                          <tr class="text-right">
+                                             <td>برند</td>
+                                             <td>اپل</td>
+                                          </tr>
+                                          <tr class="text-right">
+                                             <td>مدل</td>
+                                             <td>2017</td>
+                                          </tr>
+                                          <tr class="text-right">
+                                             <td>باطری</td>
+                                             <td>24</td>
+                                          </tr>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col" style="width:100%">
+                                 <div class="collapse show" id="sevvomi" data-parent="#open-close">
+                                    <div class="card card-body float-right" style="">
+                                       <h5 class="text-right mb-5">نظرات کاربران</h5>
+                                       <div class="row">
+                                          <div class="col">
+                                             <img src="images/blog/customer.jpg" id="customer">
+                                          </div>
+                                          <div class="col border-bottom border-light border-left border-right">
+                                             <h6 class="text-right"><b>علی علوی</b></h6>
+                                             <h6 class="text-muted text-right">18 بهمن 98</h6>
+                                             <br><br>
+                                             <p class="text-muted text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                                          </div>
+                                       </div>
+                                       <h4 class="text-right">نظر خود را ثبت کنید</h4>
+                                       <form>
+                                          <div class="row">
+                                             <div class="input-group col-xl-6">
+                                                <input type="text" class="form-control" placeholder="نام و نام خانوادگی">
+                                             </div>
+                                             <div class="input-group col-xl-6">
+                                                <input type="text" class="form-control" placeholder="ایمیل">
+                                             </div>
+                                          </div>
+                                          <textarea class="form-control" placeholder="متن پیام" rows="1"></textarea>
+                                          <button type="button" name="button" class="text-white rounded float-right mt-3" style="background-color: #4765f7;">ثبت دیدگاه</button>
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col leftcol">
+                  <div class="container bg-primary mt-5 p-2">
+                     <h6 class="text-center text-white">قیمت</h6>
+                     <h5 class="text-center text-white">800.000 تومان</h5>
+                  </div>
+                  <div class="container bg-white mt-3 pt-5 picss">
+                     <h6 class="text-center">
+<b>  دیگر تصاویر این محصول</b>
+                </h6>
+                     <img class="mx-auto d-block my-1" src="images/blog/pic-b-2.jpg">
+                     <img class="mx-auto d-block my-1" src="images/blog/pic-b-2.jpg">
+                     <img class="mx-auto d-block my-1" src="images/blog/pic-b-3.jpg">
+                  </div>
+                  <div class="container mt-4 py-5" style="background-color: #4765f7;" id="discount">
+                     <h5 class="text-white text-center mb-5">برای دریافت کد های تخفیف کلیک کنید</h5>
+                     <a href="#" class=" text-white text-decoration-none text-center  p-3 rounded">کد تخفیف</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
